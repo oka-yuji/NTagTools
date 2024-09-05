@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28AE72222C89FE3600E243D2 /* NTagToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE72212C89FE3600E243D2 /* NTagToolsApp.swift */; };
+		28AE72242C89FE3600E243D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE72232C89FE3600E243D2 /* ContentView.swift */; };
+		28AE72262C89FE3700E243D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AE72252C89FE3700E243D2 /* Assets.xcassets */; };
+		28AE72292C89FE3700E243D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AE72282C89FE3700E243D2 /* Preview Assets.xcassets */; };
+		28AE72332C89FE3700E243D2 /* NTagToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE72322C89FE3700E243D2 /* NTagToolsTests.swift */; };
+		28AE723D2C89FE3700E243D2 /* NTagToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE723C2C89FE3700E243D2 /* NTagToolsUITests.swift */; };
+		28AE723F2C89FE3700E243D2 /* NTagToolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE723E2C89FE3700E243D2 /* NTagToolsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28AE722F2C89FE3700E243D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28AE72162C89FE3600E243D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28AE721D2C89FE3600E243D2;
+			remoteInfo = NTagTools;
+		};
+		28AE72392C89FE3700E243D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28AE72162C89FE3600E243D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28AE721D2C89FE3600E243D2;
+			remoteInfo = NTagTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28AE721E2C89FE3600E243D2 /* NTagTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTagTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AE72212C89FE3600E243D2 /* NTagToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTagToolsApp.swift; sourceTree = "<group>"; };
+		28AE72232C89FE3600E243D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28AE72252C89FE3700E243D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28AE72282C89FE3700E243D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28AE722E2C89FE3700E243D2 /* NTagToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTagToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AE72322C89FE3700E243D2 /* NTagToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTagToolsTests.swift; sourceTree = "<group>"; };
+		28AE72382C89FE3700E243D2 /* NTagToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTagToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AE723C2C89FE3700E243D2 /* NTagToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTagToolsUITests.swift; sourceTree = "<group>"; };
+		28AE723E2C89FE3700E243D2 /* NTagToolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTagToolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28AE721B2C89FE3600E243D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AE722B2C89FE3700E243D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AE72352C89FE3700E243D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28AE72152C89FE3600E243D2 = {
+			isa = PBXGroup;
+			children = (
+				28AE72202C89FE3600E243D2 /* NTagTools */,
+				28AE72312C89FE3700E243D2 /* NTagToolsTests */,
+				28AE723B2C89FE3700E243D2 /* NTagToolsUITests */,
+				28AE721F2C89FE3600E243D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28AE721F2C89FE3600E243D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28AE721E2C89FE3600E243D2 /* NTagTools.app */,
+				28AE722E2C89FE3700E243D2 /* NTagToolsTests.xctest */,
+				28AE72382C89FE3700E243D2 /* NTagToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28AE72202C89FE3600E243D2 /* NTagTools */ = {
+			isa = PBXGroup;
+			children = (
+				28AE72212C89FE3600E243D2 /* NTagToolsApp.swift */,
+				28AE72232C89FE3600E243D2 /* ContentView.swift */,
+				28AE72252C89FE3700E243D2 /* Assets.xcassets */,
+				28AE72272C89FE3700E243D2 /* Preview Content */,
+			);
+			path = NTagTools;
+			sourceTree = "<group>";
+		};
+		28AE72272C89FE3700E243D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28AE72282C89FE3700E243D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28AE72312C89FE3700E243D2 /* NTagToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				28AE72322C89FE3700E243D2 /* NTagToolsTests.swift */,
+			);
+			path = NTagToolsTests;
+			sourceTree = "<group>";
+		};
+		28AE723B2C89FE3700E243D2 /* NTagToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28AE723C2C89FE3700E243D2 /* NTagToolsUITests.swift */,
+				28AE723E2C89FE3700E243D2 /* NTagToolsUITestsLaunchTests.swift */,
+			);
+			path = NTagToolsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28AE721D2C89FE3600E243D2 /* NTagTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AE72422C89FE3700E243D2 /* Build configuration list for PBXNativeTarget "NTagTools" */;
+			buildPhases = (
+				28AE721A2C89FE3600E243D2 /* Sources */,
+				28AE721B2C89FE3600E243D2 /* Frameworks */,
+				28AE721C2C89FE3600E243D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTagTools;
+			productName = NTagTools;
+			productReference = 28AE721E2C89FE3600E243D2 /* NTagTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28AE722D2C89FE3700E243D2 /* NTagToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AE72452C89FE3700E243D2 /* Build configuration list for PBXNativeTarget "NTagToolsTests" */;
+			buildPhases = (
+				28AE722A2C89FE3700E243D2 /* Sources */,
+				28AE722B2C89FE3700E243D2 /* Frameworks */,
+				28AE722C2C89FE3700E243D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28AE72302C89FE3700E243D2 /* PBXTargetDependency */,
+			);
+			name = NTagToolsTests;
+			productName = NTagToolsTests;
+			productReference = 28AE722E2C89FE3700E243D2 /* NTagToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28AE72372C89FE3700E243D2 /* NTagToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AE72482C89FE3700E243D2 /* Build configuration list for PBXNativeTarget "NTagToolsUITests" */;
+			buildPhases = (
+				28AE72342C89FE3700E243D2 /* Sources */,
+				28AE72352C89FE3700E243D2 /* Frameworks */,
+				28AE72362C89FE3700E243D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28AE723A2C89FE3700E243D2 /* PBXTargetDependency */,
+			);
+			name = NTagToolsUITests;
+			productName = NTagToolsUITests;
+			productReference = 28AE72382C89FE3700E243D2 /* NTagToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28AE72162C89FE3600E243D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					28AE721D2C89FE3600E243D2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					28AE722D2C89FE3700E243D2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 28AE721D2C89FE3600E243D2;
+					};
+					28AE72372C89FE3700E243D2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 28AE721D2C89FE3600E243D2;
+					};
+				};
+			};
+			buildConfigurationList = 28AE72192C89FE3600E243D2 /* Build configuration list for PBXProject "NTagTools" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28AE72152C89FE3600E243D2;
+			productRefGroup = 28AE721F2C89FE3600E243D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28AE721D2C89FE3600E243D2 /* NTagTools */,
+				28AE722D2C89FE3700E243D2 /* NTagToolsTests */,
+				28AE72372C89FE3700E243D2 /* NTagToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28AE721C2C89FE3600E243D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AE72292C89FE3700E243D2 /* Preview Assets.xcassets in Resources */,
+				28AE72262C89FE3700E243D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AE722C2C89FE3700E243D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AE72362C89FE3700E243D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28AE721A2C89FE3600E243D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AE72242C89FE3600E243D2 /* ContentView.swift in Sources */,
+				28AE72222C89FE3600E243D2 /* NTagToolsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AE722A2C89FE3700E243D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AE72332C89FE3700E243D2 /* NTagToolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AE72342C89FE3700E243D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AE723F2C89FE3700E243D2 /* NTagToolsUITestsLaunchTests.swift in Sources */,
+				28AE723D2C89FE3700E243D2 /* NTagToolsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28AE72302C89FE3700E243D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28AE721D2C89FE3600E243D2 /* NTagTools */;
+			targetProxy = 28AE722F2C89FE3700E243D2 /* PBXContainerItemProxy */;
+		};
+		28AE723A2C89FE3700E243D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28AE721D2C89FE3600E243D2 /* NTagTools */;
+			targetProxy = 28AE72392C89FE3700E243D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28AE72402C89FE3700E243D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28AE72412C89FE3700E243D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28AE72432C89FE3700E243D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NTagTools/Preview Content\"";
+				DEVELOPMENT_TEAM = NKLMM8NS64;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yu.j.0513.NTagTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28AE72442C89FE3700E243D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NTagTools/Preview Content\"";
+				DEVELOPMENT_TEAM = NKLMM8NS64;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yu.j.0513.NTagTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28AE72462C89FE3700E243D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NKLMM8NS64;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yu.j.0513.NTagToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTagTools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NTagTools";
+			};
+			name = Debug;
+		};
+		28AE72472C89FE3700E243D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NKLMM8NS64;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yu.j.0513.NTagToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTagTools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NTagTools";
+			};
+			name = Release;
+		};
+		28AE72492C89FE3700E243D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NKLMM8NS64;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yu.j.0513.NTagToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NTagTools;
+			};
+			name = Debug;
+		};
+		28AE724A2C89FE3700E243D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NKLMM8NS64;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.yu.j.0513.NTagToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NTagTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28AE72192C89FE3600E243D2 /* Build configuration list for PBXProject "NTagTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AE72402C89FE3700E243D2 /* Debug */,
+				28AE72412C89FE3700E243D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28AE72422C89FE3700E243D2 /* Build configuration list for PBXNativeTarget "NTagTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AE72432C89FE3700E243D2 /* Debug */,
+				28AE72442C89FE3700E243D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28AE72452C89FE3700E243D2 /* Build configuration list for PBXNativeTarget "NTagToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AE72462C89FE3700E243D2 /* Debug */,
+				28AE72472C89FE3700E243D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28AE72482C89FE3700E243D2 /* Build configuration list for PBXNativeTarget "NTagToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AE72492C89FE3700E243D2 /* Debug */,
+				28AE724A2C89FE3700E243D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28AE72162C89FE3600E243D2 /* Project object */;
+}
