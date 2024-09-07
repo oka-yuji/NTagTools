@@ -1,0 +1,16 @@
+disabled_rules:
+- trailing_comma # SwiftFormatと競合するので使わない
+- line_length
+- nesting
+- type_body_length
+- identifier_name
+
+analyzer_rules:
+- unused_import
+
+excluded:
+
+cyclomatic_complexity:
+    ignores_case_statements: true
+
+reporter: "xcode"

@@ -137,6 +137,8 @@
 				28AE721A2C89FE3600E243D2 /* Sources */,
 				28AE721B2C89FE3600E243D2 /* Frameworks */,
 				28AE721C2C89FE3600E243D2 /* Resources */,
+				28AE724B2C8CD36F00E243D2 /* SwiftLint */,
+				28AE724C2C8CD46800E243D2 /* SwiftFormat */,
 			);
 			buildRules = (
 			);
@@ -251,6 +253,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28AE724B2C8CD36F00E243D2 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ] && [ \"${ENABLE_PREVIEWS}\" = \"NO\" ]; then\n    if [ ! -e ./swiftlint ]; then\n        curl -OL https://github.com/realm/SwiftLint/releases/download/0.54.0/portable_swiftlint.zip\n        unzip portable_swiftlint.zip swiftlint\n        rm portable_swiftlint.zip\n    fi\n\n    ./swiftlint --no-cache\nelse \n    echo \"swiftlint in skipped\"\nfi\n";
+		};
+		28AE724C2C8CD46800E243D2 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ] && [ \"${ENABLE_PREVIEWS}\" = \"NO\" ]; then\n    if [ ! -e ./swiftformat ]; then\n        curl -OL https://github.com/nicklockwood/SwiftFormat/releases/download/0.53.1/swiftformat.zip\n        unzip swiftformat.zip\n        rm swiftformat.zip\n    fi\n    ./swiftformat --cache ignore --swiftversion 5.9 .\nelse \n    echo \"swiftformat in skipped\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28AE721A2C89FE3600E243D2 /* Sources */ = {
@@ -424,6 +467,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NTagTools/Preview Content\"";
 				DEVELOPMENT_TEAM = NKLMM8NS64;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,6 +497,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NTagTools/Preview Content\"";
 				DEVELOPMENT_TEAM = NKLMM8NS64;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
