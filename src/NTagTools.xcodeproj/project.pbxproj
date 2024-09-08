@@ -71,6 +71,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2839DE002C8D5B2200A3C7E0 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		2839DE012C8D5B2C00A3C7E0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2839DE022C8D5B3600A3C7E0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2839DE032C8D5B3E00A3C7E0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2839DE042C8D5B4400A3C7E0 /* Detasource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detasource;
+			sourceTree = "<group>";
+		};
 		28AE72152C89FE3600E243D2 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +129,11 @@
 		28AE72202C89FE3600E243D2 /* NTagTools */ = {
 			isa = PBXGroup;
 			children = (
+				2839DE042C8D5B4400A3C7E0 /* Detasource */,
+				2839DE032C8D5B3E00A3C7E0 /* Resource */,
+				2839DE022C8D5B3600A3C7E0 /* Common */,
+				2839DE012C8D5B2C00A3C7E0 /* Service */,
+				2839DE002C8D5B2200A3C7E0 /* Feature */,
 				28AE72212C89FE3600E243D2 /* NTagToolsApp.swift */,
 				28AE72232C89FE3600E243D2 /* ContentView.swift */,
 				28AE72252C89FE3700E243D2 /* Assets.xcassets */,
