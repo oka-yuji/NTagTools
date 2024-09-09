@@ -74,6 +74,8 @@
 		2839DE002C8D5B2200A3C7E0 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				2839DE062C8F3AF000A3C7E0 /* NtagWriter */,
+				2839DE052C8F3ADF00A3C7E0 /* NtagReader */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -104,6 +106,20 @@
 			children = (
 			);
 			path = Detasource;
+			sourceTree = "<group>";
+		};
+		2839DE052C8F3ADF00A3C7E0 /* NtagReader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NtagReader;
+			sourceTree = "<group>";
+		};
+		2839DE062C8F3AF000A3C7E0 /* NtagWriter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NtagWriter;
 			sourceTree = "<group>";
 		};
 		28AE72152C89FE3600E243D2 = {
